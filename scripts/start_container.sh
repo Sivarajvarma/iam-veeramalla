@@ -5,4 +5,4 @@ set -e
 docker push sivarajvarma/simple-python-flask-app:tagname
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 sivarajvarma/simple-python-flask-app
+docker run -d -p 5000:5000 sivarajvarma/simple-python-flask-app:tagname
